@@ -1,0 +1,25 @@
+#nav {
+    display: flex;
+background-color: antiquewhite;
+border-radius: 40px;
+align-items: center;
+}
+a {
+    margin: 20px;
+    padding: 10px 5px;
+    width: auto;
+    border-radius: 40px;
+    background-color: rgb(224, 191, 92);
+    text-decoration: none;
+    color: rgb(78, 23, 0);
+}
+main div a img {
+    width: 3rem;
+}
+.shop {
+  font-weight: bold;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-around;
+}

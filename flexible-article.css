@@ -1,0 +1,23 @@
+#article {
+    display: flex;
+flex-direction: column;
+background-color: antiquewhite;
+border-radius: 40px;
+padding: 2rem 2rem;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    color: rgb(78, 23, 0);
+}
+img {
+    width: 100%;
+    margin-right: 2rem;
+}
+@media screen and (min-width: 500px) {
+    #article {
+        display: flex;
+        flex-direction:  row-reverse;
+        justify-content: space-between;
+    }
+}
